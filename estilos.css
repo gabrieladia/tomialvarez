@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;        
+}
+
+
+
+.topnav{
+       display:flex;
+       justify-content: space-between;
+       padding: 10px;
+       margin-bottom: 5px; 
+       width: 100%;     
+       
+}
+.topheader{
+       box-shadow: 0 4px 5px rgb(3, 3, 3);
+       align-items: center;
+       justify-content: space-between;
+       float:right;
+       margin-bottom: 20px;
+       width: 100%;
+}
+
+.logo{
+       text-decoration: none;
+       display: flex;
+       align-items: center;
+       font-size: 18px;
+       font-weight: 500;
+       
+       
+       
+}
+
+.nombre__tomas{
+  color: rgb(38, 38, 38);
+
+}
+
+.logo img{
+       border-radius: 50%;
+       align-items: center;
+}
+
+body {
+       background: rgb(157, 154, 154);
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+    .social-list {
+      list-style: none;
+    
+      display: flex;
+      gap: 25px;
+      justify-content: center;
+    }
+    
+    .social-list img {
+      height: 25px;
+    }
+    
+    .social-list img:hover {
+      filter: drop-shadow(0 0 5px var(--secondary-color));
+    }
+    
+   
+    
+    button{
+      padding: 9px 25px;
+      background-color: aqua;
+      border: 10px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+    }
+    button:hover{
+      background-color: rgb(255, 255, 255);
+    }
